@@ -39,7 +39,14 @@ document.body.append(example);
 let example3 = document.querySelector('#example3');
 
 example3.addEventListener('keydown', function(event) {
-   
+
    
 
+});
+
+let example4 = document.querySelector('#example4');
+
+example4.addEventListener('keydown', function(event) {
+   const preventList = []
+   event.preventDefault();
 });
