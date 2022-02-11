@@ -31,8 +31,15 @@ example.style.position = 'absolute';
 document.body.append(example);
 
 
-document.body.addEventListener('mousemove', function(event) {
-   example.style.top = event.clientY + 'px';
-   example.style.top = event.clientX + 'px';
-});
+// document.body.addEventListener('mousemove', function(event) {
+//    example.style.top = event.clientY + 'px';
+//    example.style.top = event.clientX + 'px';
+// });
 
+let example3 = document.querySelector('#example3');
+
+example3.addEventListener('keydown', function(event) {
+   
+   
+
+});
