@@ -7,12 +7,12 @@ example1.addEventListener('click', function(event) {
    //alert('Hello world');
 });
 
-let  example2 =  document.querySelector('#example2');
-example2.addEventListener('click', function(event) {
+// let  example2 =  document.querySelector('#example2');
+// example2.addEventListener('click', function(event) {
 
-   window.location.href = "https://codigniter.com";
-   //event.preventDefault();
-});
+//    window.location.href = "https://codigniter.com";
+//    //event.preventDefault();
+// });
 
 document.body.addEventListener('contextmenu', function(event) {
    //event.preventDefault();
@@ -36,17 +36,11 @@ document.body.append(example);
 //    example.style.top = event.clientX + 'px';
 // });
 
-let example3 = document.querySelector('#example3');
 
-example3.addEventListener('keydown', function(event) {
+let example4 = document.querySelector('#example');
+let example4span = document.querySelector('#example4span');
+example4.addEventListener('keyup', function(event) {
+   example4span.textContent = example.value;
+   example4span.style.backgroundColor = 'S(example4.value)';
 
-   
-
-});
-
-let example4 = document.querySelector('#example4');
-
-example4.addEventListener('keydown', function(event) {
-   const preventList = []
-   event.preventDefault();
 });
