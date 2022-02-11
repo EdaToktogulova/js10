@@ -15,5 +15,10 @@ example2.addEventListener('click', function(event) {
 });
 
 document.body.addEventListener('contextmenu', function(event) {
-   
+   //event.preventDefault();
+});
+
+document.querySelector('div').addEventListener('dblclick', function(event) {
+   console.log(event);
+   event.preventDefault();
 });
