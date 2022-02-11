@@ -31,7 +31,7 @@ example.style.position = 'absolute';
 document.body.append(example);
 
 
-document.body.addEventListener('div').addEventListener('mousemove', function(event) {
+document.body.addEventListener('mousemove', function(event) {
    example.style.top = event.clientY + 'px';
    example.style.top = event.clientX + 'px';
 });
