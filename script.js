@@ -41,5 +41,5 @@ let example4 = document.querySelector('#example');
 let example4span = document.querySelector('#example4span');
 example4.addEventListener('keyup', function(event) {
    example4span.textContent = example.value;
-   example4span.style.backgroundColor = `S(example4.value)`;
+   example4span.style.backgroundColor = `(example4.value)`;
 });
