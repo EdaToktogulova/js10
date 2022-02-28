@@ -19,9 +19,9 @@ document.body.addEventListener('contextmenu', function(event) {
 });
 
 // document.querySelector('div').addEventListener('dblclick', function(event) {
-   alert('Hello');
-   //event.preventDefault(); -- doesn't work
-});
+//    alert('Hello');
+//    event.preventDefault(); -- doesn't work
+// });
 
 // let example = document.createElement('section');
 example.style.width = '20px';
