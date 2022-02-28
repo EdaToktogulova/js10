@@ -18,7 +18,7 @@ document.body.addEventListener('contextmenu', function(event) {
    //event.preventDefault();
 });
 
-document.querySelector('div').addEventListener('dblclick', function(event) {
+// document.querySelector('div').addEventListener('dblclick', function(event) {
    alert('Hello');
    //event.preventDefault(); -- doesn't work
 });
